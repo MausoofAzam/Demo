@@ -5,7 +5,7 @@ public class intro {
 	private int id;
 	private String name;
 	private String mob;
-	
+	int a =1;
 	
 	public intro(int id, String name, String mob) {
 		super();
@@ -30,6 +30,10 @@ public class intro {
 	}
 	public void setMob(String mob) {
 		this.mob = mob;
+	}
+	@Override
+	public String toString() {
+		return "intro [id=" + id + ", name=" + name + ", mob=" + mob + ", a=" + a + "]";
 	}
 	
 	
