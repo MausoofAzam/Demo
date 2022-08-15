@@ -6,6 +6,7 @@ public class intro {
 	private String name;
 	private String mob;
 	int a =1;
+	int b=0;
 	
 	public intro(int id, String name, String mob) {
 		super();
