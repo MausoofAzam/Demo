@@ -7,7 +7,9 @@ public class intro {
 	private String mob;
 	int a =1;
 	int b=0;
+	String phone;
 	
+	//changes for bug 121
 	public intro(int id, String name, String mob) {
 		super();
 		this.id = id;
